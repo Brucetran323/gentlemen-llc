@@ -12,10 +12,10 @@ const Home = () => {
                     </div>
                 </div>
             </div>
-            <div className="hero min-h-screen bg-neutral-content">
+            <div className="hero min-h-screen bg-neutral">
                 <div className="hero-content flex-col lg:flex-row-reverse">
                     <div className="text-center lg:text-left">
-                        <h1 className="text-5xl font-bold">Gentlemen: Your Special Day, Our Expert Care</h1>
+                        <h1 className="text-5xl font-bold">Your Special Day, Our Expert Care</h1>
                         <p className="py-6">Gentlemen LLC specializes in seamless event setups and stress-free teardowns. We work closely
                             with planners and florists to bring your wedding vision to life. Our dedicated team ensures every detail is
                             flawlessly arranged, allowing you to relax and enjoy your special day. Trust us to handle the logistics and
