@@ -12,17 +12,24 @@ const Home = () => {
                     </div>
                 </div>
             </div>
-            <div className="hero min-h-screen bg-neutral">
+            <div className="hero min-h-screen bg-base-200">
                 <div className="hero-content flex-col lg:flex-row-reverse">
                     <div className="text-center lg:text-left">
-                        <h1 className="text-5xl font-bold">Your Special Day, Our Expert Care</h1>
-                        <p className="py-6">Gentlemen LLC specializes in seamless event setups and stress-free teardowns. We work closely
-                            with planners and florists to bring your wedding vision to life. Our dedicated team ensures every detail is
-                            flawlessly arranged, allowing you to relax and enjoy your special day. Trust us to handle the logistics and
-                            create an unforgettable event experience from start to finish.</p>
+                        <h1 className="text-5xl font-bold">About Us</h1>
+                        <p className="py-6 text-lg">Welcome to Gentlemen LLC – where creativity meets efficiency, and elegance aligns with endurance.
+                            Founded in Atlanta in 2022, Gentlemen LLC is not your everyday events labor provider. We are a team of dedicated professionals who believe in the artistry of event setup and tear down, especially for weddings – the most magical and memorable events of all.
+                            Our journey began when we noticed that wedding coordinators, décor providers, and florists often struggled with the heavy lifting that goes behind setting up the perfect ambiance. This is where we saw our calling – a unique opportunity to support these creative artists, allowing them to focus on what they do best, while we handle the logistics and physicality of the setup and tear down.
+                            Over the past year, we have worked on over 50 weddings, adding life to venues and leaving behind sweet memories of beautifully orchestrated events. Not just confined to ATL, we've made dreams come true in Alabama, North Carolina, and Tennessee too, growing in experience, expertise, and finesse with each event.
+                            Our mission is simple: To ensure the smooth execution of every event, thereby allowing the creative minds involved to breathe easy and focus on their masterpiece. We serve as the backbone that supports the beautiful wedding industry, promising impeccable service, punctuality, professionalism, and above all – respect for the craft and those who make these magical events possible.
+                            Gentlemen LLC is more than just a business – it's a passion project. It's a commitment to play our part in making every wedding truly memorable. Our team doesn't just set up venues, we lay the groundwork for magical experiences. Every bolt tightened, every curtain draped, every chair arranged is done with utmost care, as we know it is these details that make the big day truly special.
+                            We thank you for considering us as a partner in your creative journey. Together, let's make every event more than just a day to remember – let's make it an unforgettable experience.
+                            Welcome to Gentlemen LLC – We're ready to lift, so you can create.
+                        </p>
                     </div>
-                    <img className="w-64 py-6" src="./images/logo.png" alt="Logo" />
-                    <div className="card flex-shrink-0 w-full max-w-sm shadow-2xl bg-base-100">
+                    <img className="rounded-3xl w-80" src="./images/1.jpg" alt="Logo" />
+                </div>
+            </div>
+            <div className="card flex-shrink-0 w-full max-w-sm shadow-2xl bg-base-100">
                         <div className="card-body">
                             <h1 className="text-3xl font-bold">Contact Information</h1>
                             <div className="form-control">
@@ -48,8 +55,6 @@ const Home = () => {
                             </div>
                         </div>
                     </div>
-                </div>
-            </div>
         </>
     )
 }
