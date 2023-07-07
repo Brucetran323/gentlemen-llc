@@ -8,7 +8,38 @@ const Home = () => {
                         <h1 className="mb-5 text-6xl font-bold ">Gentlemen LLC</h1>
                         <p className="mb-5 text-2xl font-semibold">Elevating Events, Simplifying Setups</p>
                         <p className="mb-5 text-xl font-semibold"><a href="tel:470-246-5812">(470) 246-5812</a></p>
-                        <button className="btn btn-primary">Contact us</button>
+                        
+                        <label htmlFor="my_modal_7" className="btn">Plan with us!</label>
+
+                        <input type="checkbox" id="my_modal_7" className="modal-toggle" />
+                        <div className="modal">
+                            <div className="modal-box">
+                                <h1 className="text-3xl font-bold">Contact Information</h1>
+                                <div className="form-control">
+                                    <label className="label">
+                                        <span className="label-text">Name</span>
+                                    </label>
+                                    <input type="text" placeholder="Name" className="input input-bordered input-primary w-full max-w-xs" />
+                                </div>
+                                <div className="form-control">
+                                    <label for="email" className="label">
+                                        <span className="label-text">Email</span>
+                                    </label>
+                                    <input type="email" pattern=".+@globex\.com" placeholder="Email" className="input input-bordered w-full" />
+                                </div>
+                                <div className="form-control">
+                                    <label for="phone" className="label">
+                                        <span className="label-text">Phone Number</span>
+                                    </label>
+                                    <input type="number" inputMode="numeric" placeholder="Numbers Only!" className="input input-bordered w-full" />
+                                </div>
+                                <div className="form-control mt-6">
+                                    <button className="btn btn-primary">Submit</button>
+                                </div>
+                                <label className="modal-backdrop text-white mt-5 btn" htmlFor="my_modal_7">Close</label>
+                            </div>
+                            <label className="modal-backdrop" htmlFor="my_modal_7">Close</label>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -29,32 +60,6 @@ const Home = () => {
                     <img className="rounded-3xl w-80" src="./images/1.jpg" alt="Logo" />
                 </div>
             </div>
-            <div className="card flex-shrink-0 w-full max-w-sm shadow-2xl bg-base-100">
-                        <div className="card-body">
-                            <h1 className="text-3xl font-bold">Contact Information</h1>
-                            <div className="form-control">
-                                <label className="label">
-                                    <span className="label-text">Name</span>
-                                </label>
-                                <input type="text" placeholder="Name" className="input input-bordered input-primary w-full max-w-xs" />
-                            </div>
-                            <div className="form-control">
-                                <label for="email" className="label">
-                                    <span className="label-text">Email</span>
-                                </label>
-                                <input type="email" pattern=".+@globex\.com" placeholder="Email" className="input input-bordered w-full" />
-                            </div>
-                            <div className="form-control">
-                                <label for="phone" className="label">
-                                    <span className="label-text">Phone Number</span>
-                                </label>
-                                <input type="number" inputMode="numeric" placeholder="Numbers Only!" className="input input-bordered w-full" />
-                            </div>
-                            <div className="form-control mt-6">
-                                <button className="btn btn-primary">Submit</button>
-                            </div>
-                        </div>
-                    </div>
         </>
     )
 }
