@@ -2,6 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
-#home-hero{
-    background-image: url(/public/images/hero4.jpg);
+#home-hero {
+    background-image: url(/public/images/hero-1.png);
 }
+
+.carousel {
+    max-height: 700px;
+    border-radius: 25px;
+}
+

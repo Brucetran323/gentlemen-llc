@@ -1,3 +1,6 @@
+import "react-responsive-carousel/lib/styles/carousel.min.css";
+import { Carousel } from 'react-responsive-carousel';
+
 const Home = () => {
     return (
         <>
@@ -8,7 +11,7 @@ const Home = () => {
                         <h1 className="mb-5 text-6xl font-bold ">Gentlemen LLC</h1>
                         <p className="mb-5 text-2xl font-semibold">Elevating Events, Simplifying Setups</p>
                         <p className="mb-5 text-xl font-semibold"><a href="tel:470-246-5812">(470) 246-5812</a></p>
-                        
+
                         <label htmlFor="my_modal_7" className="btn">Plan with us!</label>
 
                         <input type="checkbox" id="my_modal_7" className="modal-toggle" />
@@ -58,6 +61,40 @@ const Home = () => {
                         </p>
                     </div>
                     <img className="rounded-3xl w-80" src="./images/1.jpg" alt="Logo" />
+                </div>
+            </div>
+            <div className="hero min-h-screen bg-slate-950">
+                <div className="hero-content flex-col lg:flex-row-reverse">
+                    <div className="lg:w-1/2">
+                        <Carousel showThumbs={false} infiniteLoop={true}>
+                            <div>
+                                <img src="./images/carousel/1.png" alt="Image 1" />
+                            </div>
+                            <div>
+                                <img src="./images/carousel/2.png" alt="Image 1" />
+                            </div>
+                            <div>
+                                <img src="./images/carousel/3.png" alt="Image 1" />
+                            </div>
+                            <div>
+                                <img src="./images/carousel/4.png" alt="Image 1" />
+                            </div>
+                        </Carousel>
+                    </div>
+
+                    <div className="text-center lg:text-left lg:w-1/2">
+                        <h1 className="text-5xl font-bold">Customer Testimony</h1>
+                        <p className="py-6 text-lg">Working with Gentleman Events has been an absolute pleasure. Their team of
+                            professionals is not only willing to do whatever we ask of them, but they always take the
+                            time to understand our unique needs and will develop tailored solutions that exceed our expectations.
+                            Each member of the team is always on time, dressed professionally and has a professional attitude.
+                            We know that they will always represent Bloomin’ Bouquets in the best way. I cannot recommend Gentleman Events
+                            highly enough for any business seeking professional assistance with their business.
+                            <br />
+                            <br />
+                            Sarah Provow - Owner and Creative Director
+                        </p>
+                    </div>
                 </div>
             </div>
         </>
